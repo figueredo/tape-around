@@ -24,7 +24,6 @@ testBlock = around(test)
     t.pass('after hook called')
     t.end()
   })
-})
 
 testBlock('my test', function (t) {
   t.equal(25 * 4, 100)
@@ -152,7 +151,6 @@ testBlock = around(test)
     t.pass('after hooks')
     t.end()
   })
-})
 
 testBlock('my test', function (t) {
   t.equal(25 * 4, 100)
